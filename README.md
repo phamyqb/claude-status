@@ -1,14 +1,16 @@
-# Claude Code status line for Warp
+# Claude Code status line for Terminal
 
-Status line nằm trong giao diện `claude` chạy trong Warp, không phải thanh toàn cục của Warp.
+Status line nằm trong giao diện `claude` chạy trong Terminal, không phải thanh toàn cục của Terminal.
 Cần Python 3.8+; không cần dependency hoặc Nerd Font.
+
+![Claude Code status line](docs/screenshots/status.png)
 
 ## Cài đặt / cập nhật
 
-Giải nén vào Downloads, rồi chạy trong Warp:
+Giải nén vào Downloads, rồi chạy trong terminal:
 
 ```sh
-cd ~/Downloads/claude-statusline-warp
+cd ~/Downloads/claude-status
 python3 install.py
 ```
 
@@ -68,7 +70,7 @@ phần trăm rộng 3 cột. Current và Week luôn ở các hàng riêng.
 Mỗi thanh đổi màu theo remaining: xanh >=50%, vàng >=20%, cam >=10%, đỏ <10%.
 Ô vuông nhỏ ▪ thể hiện phần còn lại; ▫ thể hiện phần đã dùng.
 Hai ký tự nằm giữa dòng thay vì sát đáy như các ký tự block thấp, giúp thanh
-và nhãn Context / Current / Week cân đối hơn. Vị trí chính xác vẫn tùy font Warp.
+và nhãn Context / Current / Week cân đối hơn. Vị trí chính xác vẫn tùy font Terminal.
 Thanh giữ chiều rộng 10 ô. Các hàng sát nhau, không dòng trống hay đường phân cách;
 chỉ giữ khung viền ngoài.
 Ngày giờ reset theo múi giờ hệ điều hành, dạng DD-MMM-YYYY HH:mm, tên tháng tiếng Anh.
